@@ -1,0 +1,61 @@
+.multiselect-container {
+  position: relative;
+  display: inline-block;
+  width: 80%;
+  left: 200px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.selected-users {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+ 
+}
+
+.chip {
+  background-color: #4caf50;
+  color: white;
+  padding: 4px 8px;
+  margin: 4px;
+  width: 130px;
+  padding: 10px;
+  /* border-radius: 0% 50%; Top-left and bottom-left corners, top-right and bottom-right corners */
+  display: flex;
+  align-items: center;
+}
+
+
+.remove-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.dropdown-list {
+  position: absolute;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  z-index: 1;
+}
+
+.dropdown-item {
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dropdown-item:hover {
+  background-color: #f2f2f2;
+}
